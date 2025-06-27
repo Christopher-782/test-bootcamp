@@ -1,34 +1,17 @@
-body{
-  background-image: url(/images/Maters.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 400px;
+.flex-container{
+  display: flex;
+  padding: 10px;
+  background-color: lightgray;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  gap: 15px;
 }
-.container1 {
-  padding: 50px;
-  background-color: rgb(236, 202, 7, 0.4);
-  margin: 50px;
+.flex-item {
+  border: 1px solid grey;
+  padding: 20px;
   text-align: center;
-  border-radius: 20px;
-  height: 50px;
-  padding-right: 50px;
+  background-color: lightblue;
+  width: 100px;
 }
 
-.container2 {
-  padding: 50px;
-  background-color: rgb(204, 183, 63, 0.5);
-  margin: 50px;
-  text-align: center;
-  border-radius: 20px;
-  height: 200px;
-  padding-right: 50px;
-}
-
-.container1 img{
-  position: absolute;
-  left: 45px;
-  top: 10px;
-  
-  
-}
